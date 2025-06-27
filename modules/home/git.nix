@@ -3,24 +3,24 @@
   programs.git = {
     enable = true;
 
-    userName = "Frost-Phoenix";
-    userEmail = "67cyril6767@gmail.com";
+    userName = "Hoang Nguyen";
+    userEmail = "v1wtnbh@sph.com.sg";
 
-    extraConfig = {
-      init.defaultBranch = "main";
-      merge.conflictstyle = "diff3";
-      diff.colorMoved = "default";
-      pull.ff = "only";
-      color.ui = true;
-      url = {
-        "git@github.com:".insteadOf = [
-          "gh:"
-          "https://github.com/"
-        ];
-        "git@github.com:frost-phoenix/".insteadOf = "fp:";
-      };
-      core.excludesFile = "/home/${username}/.config/git/.gitignore";
-    };
+    # extraConfig = {
+    #   init.defaultBranch = "main";
+    #   merge.conflictstyle = "diff3";
+    #   diff.colorMoved = "default";
+    #   pull.ff = "only";
+    #   color.ui = true;
+    #   url = {
+    #     "git@github.com:".insteadOf = [
+    #       "gh:"
+    #       "https://github.com/"
+    #     ];
+    #     "git@github.com:frost-phoenix/".insteadOf = "fp:";
+    #   };
+    #   core.excludesFile = "/home/${username}/.config/git/.gitignore";
+    # };
 
     delta = {
       enable = true;

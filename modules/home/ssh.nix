@@ -10,14 +10,24 @@
     controlPersist = "10m";
 
     matchBlocks = {
-      github = {
-        host = "github.com";
-        hostname = "ssh.github.com";
+      "github-personal" = {
+        hostname = "github.com";
         user = "git";
-        port = 443;
-        identityFile = "~/.ssh/id_github";
-        identitiesOnly = true;
+        identityFile = "~/.ssh/id_ed25519_personal";
       };
+      "github-work" = {
+        hostname = "github.com";
+        user = "git";
+        identityFile = "~/.ssh/id_ed25519";
+      };
+      # github = {
+      #   host = "github.com";
+      #   hostname = "ssh.github.com";
+      #   user = "git";
+      #   port = 443;
+      #   identityFile = "~/.ssh/id_github";
+      #   identitiesOnly = true;
+      # };
     };
   };
 
