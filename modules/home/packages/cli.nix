@@ -89,5 +89,9 @@
 
     winetricks
     wineWowPackages.waylandFull
+
+    # aws
+    awscli2
+    aws-sam-cli
   ];
 }
