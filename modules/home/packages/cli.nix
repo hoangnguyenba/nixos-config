@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    stow
+
     ## Better core utils
     duf                               # disk information
     eza                               # ls replacement
