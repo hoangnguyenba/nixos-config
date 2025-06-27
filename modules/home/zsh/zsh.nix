@@ -159,6 +159,10 @@
         zle -N zle-line-init
         zle -N zle-line-finish
       fi
+
+      export GOPATH=$HOME/go
+      export GOBIN=$GOPATH/bin
+      export PATH=$PATH:$GOBIN
     '';
   };
 
