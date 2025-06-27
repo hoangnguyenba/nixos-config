@@ -18,8 +18,14 @@
     valgrind
     llvmPackages_20.clang-tools
 
-    ## Python
+    # code languages
+    go
+    php
+    nodejs
+    yarn
+    pnpm
     python3
-    python312Packages.ipython
+    # python312Packages.ipython
+    uv    
   ];
 }
