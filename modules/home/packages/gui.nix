@@ -1,6 +1,16 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    slack
+
+    #dev tools
+    postman
+    bruno
+    bruno-cli
+    dbeaver-bin
+    inputs.tableplus.packages."${system}".default
+
     ## Multimedia
     audacity
     gimp
