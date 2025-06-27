@@ -5,6 +5,8 @@
     docker
     podman
     podman-compose
+    lazydocker
+    podman-desktop
   ];
 
   users.users.${username}.extraGroups = [ "docker" ];
