@@ -3,19 +3,21 @@
   programs.ssh = {
     enable = true;
 
-    addKeysToAgent = "1h";
+    # addKeysToAgent = "1h";
 
-    controlMaster = "auto";
-    controlPath = "~/.ssh/control-%r@%h:%p";
-    controlPersist = "10m";
+    # controlMaster = "auto";
+    # controlPath = "~/.ssh/control-%r@%h:%p";
+    # controlPersist = "10m";
 
     matchBlocks = {
       "github-personal" = {
+        host = "github-personal";
         hostname = "github.com";
         user = "git";
         identityFile = "~/.ssh/id_ed25519_personal";
       };
       "github-work" = {
+        host = "github.com";
         hostname = "github.com";
         user = "git";
         identityFile = "~/.ssh/id_ed25519";
