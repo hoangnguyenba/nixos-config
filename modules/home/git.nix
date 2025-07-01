@@ -3,6 +3,10 @@
   programs.git = {
     enable = true;
 
+    extraConfig = {
+      push = { autoSetupRemote = true; };
+    };
+
     userName = "Hoang Nguyen";
     userEmail = "v1wtnbh@sph.com.sg";
 
