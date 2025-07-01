@@ -21,6 +21,8 @@
     # code languages
     go
     php
+    php.packages.composer
+    # php84Packages.composer
     nodejs
     yarn
     pnpm
