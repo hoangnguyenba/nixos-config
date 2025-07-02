@@ -12,11 +12,13 @@
     inputs.tableplus.packages."${system}".default
 
     ## Multimedia
-    audacity
+    # sound editor?
+    # audacity
     gimp
     obs-studio
     pavucontrol
-    soundwireserver
+    # sound server
+    # soundwireserver
     video-trimmer
     vlc
 
@@ -31,7 +33,8 @@
     zenity
 
     ## Level editor
-    ldtk
-    tiled
+    # I am not game devloper
+    # ldtk
+    # tiled
   ];
 }
