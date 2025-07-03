@@ -3,6 +3,7 @@
   imports = [
     ./bootloader.nix
     ./hardware.nix
+    ./bluetooth.nix
     ./xserver.nix
     ./network.nix
     ./nh.nix
