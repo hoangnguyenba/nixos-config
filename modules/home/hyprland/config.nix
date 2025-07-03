@@ -175,7 +175,7 @@ in
         "$mainMod, N, exec, swaync-client -t -sw"
         "CTRL SHIFT, Escape, exec, hyprctl dispatch exec '[workspace 9] missioncenter'"
         "$mainMod, equal, exec, woomer"
-        "$mainMod, U, exec, pavucontrol"
+        "$mainMod, U, exec, hyprctl dispatch exec '[float; center; size 1111 700] pavucontrol'"
 
         # "$mainMod SHIFT, W, exec, vm-start"
 
