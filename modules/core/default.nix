@@ -18,5 +18,6 @@
     ./wayland.nix
     ./virtualization.nix
     ./docker.nix
+    ./keyboard.nix
   ];
 }
