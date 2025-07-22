@@ -163,6 +163,8 @@
       export GOPATH=$HOME/go
       export GOBIN=$GOPATH/bin
       export PATH=$PATH:$GOBIN
+
+      export PATH=$HOME/.opencode/bin:$PATH
     '';
   };
 
