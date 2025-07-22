@@ -82,6 +82,7 @@
     pamixer                           # pulseaudio command line mixer
     playerctl                         # controller for media players
     poweralertd
+    zip
     unzip
     wget
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
