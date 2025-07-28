@@ -1,6 +1,10 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    # editors
+    vscode
+
     ## Lsp
     nixd # nix
 
