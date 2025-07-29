@@ -91,6 +91,9 @@
     winetricks
     wineWowPackages.waylandFull
 
+    # dev tools
+    gh
+
     # aws
     awscli2
     aws-sam-cli

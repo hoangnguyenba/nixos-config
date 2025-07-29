@@ -30,8 +30,9 @@
     nodejs
     yarn
     pnpm
+    bun
     python3
     # python312Packages.ipython
-    uv    
+    uv
   ];
 }
