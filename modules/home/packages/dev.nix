@@ -32,6 +32,7 @@
     pnpm
     bun
     python3
+    python313Packages.pip
     # python312Packages.ipython
     uv
   ];
