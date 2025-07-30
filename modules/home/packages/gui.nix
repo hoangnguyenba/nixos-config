@@ -10,6 +10,7 @@
     bruno-cli
     dbeaver-bin
     inputs.tableplus.packages."${system}".default
+    github-desktop
 
     ## Multimedia
     # sound editor?
