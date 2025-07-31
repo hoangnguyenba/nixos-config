@@ -22,6 +22,9 @@
     valgrind
     llvmPackages_20.clang-tools
 
+    # tools
+    ollama
+
     # code languages
     go
     php
