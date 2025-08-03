@@ -14,6 +14,7 @@
     nixfmt-rfc-style
 
     ## C / C++
+    #stdenv.cc.cc.lib
     gcc
     gdb
     gef
@@ -24,6 +25,7 @@
 
     # tools
     ollama
+    claude-code
 
     # code languages
     go
