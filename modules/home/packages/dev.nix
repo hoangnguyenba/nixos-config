@@ -1,6 +1,10 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    # editors
+    vscode
+
     ## Lsp
     nixd # nix
 
@@ -10,6 +14,7 @@
     nixfmt-rfc-style
 
     ## C / C++
+    #stdenv.cc.cc.lib
     gcc
     gdb
     gef
@@ -18,8 +23,22 @@
     valgrind
     llvmPackages_20.clang-tools
 
-    ## Python
+    # tools
+    ollama
+    claude-code
+
+    # code languages
+    go
+    php
+    php.packages.composer
+    # php84Packages.composer
+    nodejs
+    yarn
+    pnpm
+    bun
     python3
-    python312Packages.ipython
+    python313Packages.pip
+    # python312Packages.ipython
+    uv
   ];
 }

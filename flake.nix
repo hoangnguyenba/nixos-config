@@ -40,12 +40,14 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
     ghostty.url = "github:ghostty-org/ghostty";
+
+    tableplus.url = "github:hoangnguyenba/tableplus-flake";
   };
 
   outputs =
     { nixpkgs, self, ... }@inputs:
     let
-      username = "frostphoenix";
+      username = "hoang";
       system = "x86_64-linux";
       pkgs = import nixpkgs {
         inherit system;

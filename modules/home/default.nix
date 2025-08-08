@@ -1,13 +1,13 @@
 { ... }:
 {
   imports = [
-    ./aseprite/aseprite.nix           # pixel art editor
-    ./audacious.nix                   # music player
+    # ./aseprite/aseprite.nix           # pixel art editor
+    # ./audacious.nix                   # music player
     ./bat.nix                         # better cat command
     ./browser.nix                     # firefox based browser
     ./btop.nix                        # resouces monitor 
     ./cava.nix                        # audio visualizer
-    ./discord.nix                     # discord
+    # ./discord.nix                     # discord
     ./fastfetch.nix                   # fetch tool
     ./flow.nix                        # terminal text editor
     ./fzf.nix                         # fuzzy finder
@@ -35,7 +35,7 @@
     ./swayosd.nix                     # brightness / volume wiget
     ./swaync/swaync.nix               # notification deamon
     # ./viewnior.nix                    # image viewer
-    ./vscodium                        # vscode fork
+    # ./vscodium                        # vscode fork
     ./waybar                          # status bar
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config

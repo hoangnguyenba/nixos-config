@@ -142,7 +142,7 @@ in
     };
     "hyprland/language" = {
       format = "<span foreground='#FABD2F'> </span> {}";
-      format-fr = "FR";
+      format-vn = "VN";
       format-en = "US";
     };
     "custom/launcher" = {

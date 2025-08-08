@@ -1,12 +1,25 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    slack
+
+    #dev tools
+    postman
+    bruno
+    bruno-cli
+    dbeaver-bin
+    inputs.tableplus.packages."${system}".default
+    github-desktop
+
     ## Multimedia
-    audacity
+    # sound editor?
+    # audacity
     gimp
     obs-studio
     pavucontrol
-    soundwireserver
+    # sound server
+    # soundwireserver
     video-trimmer
     vlc
 
@@ -21,7 +34,8 @@
     zenity
 
     ## Level editor
-    ldtk
-    tiled
+    # I am not game devloper
+    # ldtk
+    # tiled
   ];
 }

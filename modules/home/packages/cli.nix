@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
+
+    stow
+
     ## Better core utils
     duf                               # disk information
     eza                               # ls replacement
@@ -35,7 +38,7 @@
     # epy                               # ebook reader
     gtt                               # google translate TUI
     programmer-calculator
-    smassh                            # typing test in the terminal
+    # smassh                            # typing test in the terminal
     toipe                             # typing test in the terminal
     tomato-c                          # TUI pomodoro timer
     ttyper                            # cli typing test
@@ -79,6 +82,7 @@
     pamixer                           # pulseaudio command line mixer
     playerctl                         # controller for media players
     poweralertd
+    zip
     unzip
     wget
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
@@ -86,5 +90,12 @@
 
     winetricks
     wineWowPackages.waylandFull
+
+    # dev tools
+    gh
+
+    # aws
+    awscli2
+    aws-sam-cli
   ];
 }
