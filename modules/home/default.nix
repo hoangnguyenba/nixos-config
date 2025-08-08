@@ -40,6 +40,6 @@
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config
     ./zsh                             # shell
-    # ./ollama.nix                     # ollama packages
+    ./ollama.nix                     # ollama packages
   ];
 }

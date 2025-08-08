@@ -14,6 +14,8 @@
       gcr
       gnome-settings-daemon
     ];
+
+    # ollama.enable = true; # bug run old version
   };
   services.logind.extraConfig = ''
     # don’t shutdown when power button is short-pressed

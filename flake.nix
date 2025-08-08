@@ -43,7 +43,7 @@
 
     tableplus.url = "github:hoangnguyenba/tableplus-flake";
 
-    # ollama.url = "github:hoangnguyenba/ollama-flake";
+    ollama.url = "github:hoangnguyenba/ollama-flake";
   };
 
   outputs =
