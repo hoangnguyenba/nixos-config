@@ -11,7 +11,7 @@
     ./fastfetch.nix                   # fetch tool
     ./flow.nix                        # terminal text editor
     ./fzf.nix                         # fuzzy finder
-    ./gaming.nix                      # packages related to gaming
+    # ./gaming.nix                      # packages related to gaming
     ./ghostty.nix                     # terminal
     ./git.nix                         # version control
     ./gnome.nix                       # gnome apps
@@ -40,5 +40,6 @@
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config
     ./zsh                             # shell
+    ./ollama.nix                      # ollama AI models
   ];
 }

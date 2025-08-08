@@ -88,8 +88,8 @@
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
     xdg-utils
 
-    winetricks
-    wineWowPackages.waylandFull
+    # winetricks
+    # wineWowPackages.waylandFull
 
     # dev tools
     gh
