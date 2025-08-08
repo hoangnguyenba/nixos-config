@@ -42,6 +42,8 @@
     ghostty.url = "github:ghostty-org/ghostty";
 
     tableplus.url = "github:hoangnguyenba/tableplus-flake";
+
+    # ollama.url = "github:hoangnguyenba/ollama-flake";
   };
 
   outputs =

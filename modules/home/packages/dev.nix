@@ -24,7 +24,8 @@
     llvmPackages_20.clang-tools
 
     # tools
-    ollama
+    # ollama
+    # ollama-cuda
     claude-code
 
     # code languages
