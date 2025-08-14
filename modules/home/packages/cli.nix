@@ -97,5 +97,6 @@
     # aws
     awscli2
     aws-sam-cli
+    ssm-session-manager-plugin
   ];
 }
