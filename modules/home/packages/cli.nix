@@ -92,6 +92,8 @@
     wineWowPackages.waylandFull
 
     # dev tools
+    turso-cli
+    sqld
     gh
 
     # aws

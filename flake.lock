@@ -1019,11 +1019,11 @@
         "nixpkgs": "nixpkgs_8"
       },
       "locked": {
-        "lastModified": 1753069499,
-        "narHash": "sha256-YtgY0ueqKNrBma4Euu8WH23BhUkBujirJDMDE1KujnU=",
+        "lastModified": 1755401178,
+        "narHash": "sha256-DDkdq94AFxXB0tCVEV+RyjLWxUxa+3zp36OBh+ui3G8=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "c64b94235ae24e3b9e01a08f0331d8bb0e5b037a",
+        "rev": "0dfccbcf0d5099ba2bcfe85b88f36fece8dfb9aa",
         "type": "github"
       },
       "original": {
