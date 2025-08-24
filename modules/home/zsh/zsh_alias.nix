@@ -39,6 +39,8 @@
       # python
       piv = "python -m venv .venv";
       psv = "source .venv/bin/activate";
+
+      xfreerdp3 = "/run/current-system/sw/bin/flatpak run --command=xfreerdp com.freerdp.FreeRDP";
     };
   };
 }

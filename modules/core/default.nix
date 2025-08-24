@@ -19,5 +19,7 @@
     ./virtualization.nix
     ./docker.nix
     ./keyboard.nix
+    ./flatpak.nix
+    ./winapps.nix
   ];
 }

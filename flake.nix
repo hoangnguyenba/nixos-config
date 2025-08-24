@@ -44,6 +44,11 @@
     tableplus.url = "github:hoangnguyenba/tableplus-flake";
 
     ollama.url = "github:hoangnguyenba/ollama-flake";
+
+    winapps = {
+      url = "github:winapps-org/winapps";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
