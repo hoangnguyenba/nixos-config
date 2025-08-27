@@ -41,6 +41,7 @@
       psv = "source .venv/bin/activate";
 
       xfreerdp3 = "/run/current-system/sw/bin/flatpak run --command=xfreerdp com.freerdp.FreeRDP";
+      # wlfreerdp3 = "/run/current-system/sw/bin/wlfreerdp";
     };
   };
 }
